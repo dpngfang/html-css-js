@@ -1,0 +1,59 @@
+#game .block{
+    float: left;
+    box-sizing: border-box;
+    border: solid white 0.5px;
+    text-align: center;
+    user-select: none;
+    font-weight: bold;
+    background-color: #f2f2f2;
+    cursor: pointer;
+    /* transition: all .1s; */
+}
+
+#game .block.cover:not(.danger):hover{
+    background-color: #49f2ff !important;
+}
+
+#game{
+    margin: 5px auto;
+    border: solid white 0.5px;
+}
+
+#game .block.cover{
+    background-color: #ffcb56;
+}
+#game .block.danger{
+    background-color: red;
+    color: white;
+}
+#all{
+    margin: 0px auto;
+    position: relative;
+    height: 2em;
+    line-height: 2em;
+}
+#all div{
+    display: inline-block;
+}
+#all #restart{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 100%;
+    background-color: #b2ffa7;
+    outline: none;
+}
+
+#all #time{
+    float: left;
+}
+#all #boom{
+
+    float: right;
+}
+
+#start{
+    font-family: 微软雅黑;
+    font-size: 35px;
+    color: #ff6900;
+}
