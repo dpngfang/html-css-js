@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Title</title>
+    <link rel="stylesheet" href="扫雷.css">
+</head>
+<body>
+<div align="center" id="start">请选择规格与炸弹数</div>
+<table align="center">
+    <tr>
+        <td class="word">规格 : </td>
+        <td class="inp">
+            <input type="text" name="size" id="size" >
+        </td>
+    </tr>
+    <tr>
+        <td class="word">炸弹数 : </td>
+        <td class="inp">
+            <input type="text" name="num" id="num">
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2" align="center">
+            <button id="button" value="abc">
+                Submit
+            </button>
+        </td>
+    </tr>
+</table>
+<br>
+<div id="wrap">
+    <div id="all">
+        <div ></div>
+        <div id="time">所用时间</div>
+        <button id="restart">(ಡωಡ)</button>
+        <div id="boom">剩余炸弹数</div>
+    </div>
+    <div id="game"></div>
+</div>
+<br>
+<br>
+<table id="table" align="center">
+    <tr>
+        <th>所用时间</th>
+        <th>扫雷总数</th>
+        <th>&nbsp;</th>
+    </tr>
+
+</table>
+<script src="扫雷.js"></script>
+
+</body>
+</html>
